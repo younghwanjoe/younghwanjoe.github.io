@@ -52,15 +52,17 @@
                         <div class="section-right"> -->
                 <div class="section-content">
                     <div class="section-left">
-                        <p class="contact">E-mail:
-                            younghwanjoe@gmail.com</p>
-                        <p class="contact">Phone:
-                            +821043065058</p>
-                        <p class="contact">Github: <a
-                                href="https://github.com/younghwanjoe">https://github.com/younghwanjoe</a></p>
-                        <p class="contact">LinkedIn: <a
-                                href="https://www.linkedin.com/in/younghwanjoe/">https://www.linkedin.com/in/younghwanjoe</a>
-                        </p>
+                        <div class="contact-container">
+                            <p class="contact">E-mail:
+                                younghwanjoe@gmail.com</p>
+                            <p class="contact">Phone:
+                                +821043065058</p>
+                            <p class="contact">Github: <a
+                                    href="https://github.com/younghwanjoe">https://github.com/younghwanjoe</a></p>
+                            <p class="contact">LinkedIn: <a
+                                    href="https://www.linkedin.com/in/younghwanjoe/">https://www.linkedin.com/in/younghwanjoe</a>
+                            </p>
+                        </div>
                     </div>
                     <!-- </div> -->
                 </div>
@@ -402,6 +404,16 @@
             font-size: 1.1rem;
         }
 
+        a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: #000000;
+        }
+
         .container {
             width: 100%;
             max-width: 50rem;
@@ -596,6 +608,15 @@
                 /* display: none !important; */
             }
 
+            .contact-container {
+                display: block;
+            }
+
+            p.contact {
+                display: block;
+                width: 100%;
+            }
+            
             .info-content {
                 font-size: 0.8rem;
                 font-weight: bold;

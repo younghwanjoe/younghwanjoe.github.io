@@ -52,15 +52,17 @@
                     <div class="section-right"> -->
                 <div class="section-content">
                     <div class="section-left">
-                        <p class="contact">이메일:
-                            younghwanjoe@gmail.com</p>
-                        <p class="contact">휴대폰:
-                            +821043065058</p>
-                        <p class="contact">깃헙: <a
-                                href="https://github.com/younghwanjoe">https://github.com/younghwanjoe</a></p>
-                        <p class="contact">링크드인: <a
-                                href="https://www.linkedin.com/in/younghwanjoe/">https://www.linkedin.com/in/younghwanjoe</a>
-                        </p>
+                        <div class="contact-container">
+                            <p class="contact">이메일:
+                                younghwanjoe@gmail.com</p>
+                            <p class="contact">휴대폰:
+                                +821043065058</p>
+                            <p class="contact">깃헙: <a
+                                    href="https://github.com/younghwanjoe">https://github.com/younghwanjoe</a></p>
+                            <p class="contact">링크드인: <a
+                                    href="https://www.linkedin.com/in/younghwanjoe/">https://www.linkedin.com/in/younghwanjoe</a>
+                            </p>
+                        </div>
                     </div>
                     <!-- </div> -->
                 </div>
@@ -385,6 +387,16 @@
             font-size: 1.1rem;
         }
 
+        a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: #000000;
+        }
+
         .container {
             width: 100%;
             max-width: 50rem;
@@ -576,6 +588,15 @@
 
             .nbsp {
                 /* display: none !important; */
+            }
+
+            .contact-container {
+                display: block;
+            }
+
+            p.contact {
+                display: block;
+                width: 100%;
             }
 
             .info-content {
