@@ -39,9 +39,9 @@ a:active {
 
 .resume-title {
     font-weight: bold;
-    margin: .67em 0;
+    margin: .5em 0;
     color: black;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.1;
     display: block;
     text-align: left;
@@ -52,6 +52,10 @@ a:active {
     display: inline-block;
     text-align: end;
 }
+.contact-container {
+    display: block;
+    margin: 0 0 0 1rem;
+}
 
 .my-name {
     text-align: center;
@@ -60,7 +64,7 @@ a:active {
 
 .info {
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .info-left {
@@ -88,19 +92,13 @@ p.contact {
 .info-content {
     display: inline-block;
     /* padding: 0 1rem; */
-    font-size: 0.9rem;
+    font-size: 16px;
     width: 100%;
-    text-align: left;
+    text-align: right;
 }
-
-.intro {
-    font-size: 1.5rem;
-}
-
-.contact {}
 
 .section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-container {
@@ -122,7 +120,7 @@ p.contact {
     display: flex;
     flex-direction: column;
     vertical-align: top;
-    margin-left: 1rem;
+    margin: 1rem 0 0 1rem;
     flex-basis: 40%;
 }
 
@@ -133,21 +131,22 @@ p.contact {
 }
 
 .section-content {
-    margin-bottom: 2rem;
+    padding: 1rem 0;
 }
 
 .section-name {
     display: inline-block;
-    font-size: 1.7rem;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .section-position,
 .section-term {
+    font-size: 14px;
     display: inline-block;
     width: 100%;
-    font-weight: bold;
 }
 
 .department-name {
@@ -161,10 +160,14 @@ p.contact {
 .content-head {
     margin-bottom: 1rem;
 }
+.content-line {
+    font-size: 16px;
+    padding-bottom: 0;
+}
 
 .project-name {
     display: block;
-    font-size: 1.7rem;
+    font-size: 22px;
 }
 
 .project-term {
@@ -172,8 +175,9 @@ p.contact {
 }
 
 .project-description {
+    font-size: 16px;
     font-style: normal;
-    margin: 0 0 1rem 0;
+    margin: 0 0 12px 0;
 }
 
 li {
@@ -192,11 +196,13 @@ ul>li:before {
 }
 
 .tech-stack {
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
 }
 
 .repo-url {
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
 }
@@ -222,6 +228,7 @@ ul>li:before {
 
     .contact-container {
         display: block;
+        margin: 1rem 0 0 1rem;
     }
 
     p.contact {
@@ -239,7 +246,7 @@ ul>li:before {
     }
 
     .section-head {
-        font-size: 1.5rem;
+        font-size: 24px;
         display: inline-block;
         width: 100%;
     }
