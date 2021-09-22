@@ -54,7 +54,7 @@ a:active {
 }
 .contact-container {
     display: block;
-    margin: 0 0 0 1rem;
+    margin: 0 0 1rem 1rem;
 }
 
 .my-name {
@@ -172,6 +172,7 @@ p.contact {
 
 .project-term {
     display: block;
+    text-align: end;
 }
 
 .project-description {
