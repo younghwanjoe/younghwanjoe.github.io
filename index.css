@@ -105,6 +105,14 @@ p.contact {
     display: flex;
 }
 
+.section-container.olimplanet{
+    margin-bottom: 7rem;
+}
+
+.section-container.seoulventures{
+    margin-bottom: 0rem;
+}
+
 .section-head {
     display: block;
     vertical-align: top;
