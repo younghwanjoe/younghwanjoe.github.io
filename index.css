@@ -106,11 +106,11 @@ p.contact {
 }
 
 .section-container.olimplanet{
-    padding-bottom: 13rem;
+    padding-bottom: 10rem;
 }
 
 .section-container.seoulventures{
-    padding-bottom: 17rem;
+    padding-bottom: 18rem;
 }
 
 .section-container .section-content:not(:last-child) {
@@ -189,6 +189,8 @@ section.section.etc-activity> div:not(:last-child) > div.section-right {
 .project-term {
     display: block;
     text-align: end;
+    padding-bottom: 4px;
+    padding-right: 1.5rem;
 }
 
 .project-description {
