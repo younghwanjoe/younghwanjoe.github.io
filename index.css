@@ -160,7 +160,7 @@ section.section.etc-activity> div:not(:last-child) > div.section-right {
 
 .section-position,
 .section-term {
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     width: 100%;
 }
