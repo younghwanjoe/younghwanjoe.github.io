@@ -154,7 +154,7 @@ section.section.etc-activity> div:not(:last-child) > div.section-right {
     display: inline-block;
     font-size: 26px;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 8px;
     font-weight: bold;
 }
 
