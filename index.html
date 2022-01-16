@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>RESUME_조영환</title>
@@ -28,29 +29,27 @@
     <meta name="twitter:description" content="프론트엔드 엔지니어, 조영환입니다.">
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <!-- PDF 배율 80% 권장 -->
-    <div id="root"></div>
     <div class="container">
         <header>
             <div class="resume-title">프론트엔드 엔지니어,&nbsp<br class="br">조영환입니다.</span></div>
             <div class="info">
                 <span class="info-content intro">
-                   Javascript와 프레임워크의 동작 원리를 깊게 이해하고 활용하려고 합니다
-                </span>
-                <span class="info-content intro">
-                Product의 더 나은 UI/UX 구현을 지향합니다
+                    Javascript의 깊은 이해와 Product의 최적화된 UI/UX 구현을 지향합니다
                 </span>
             </div>
         </header>
-        <section class="section">
-            <p class="section-head">
-                연락처
-            </p>
-            <div class="section-container">
-                <!-- <div class="section-left">
-                    </div>  
-                    <div class="section-right"> -->
+        <main>
+            <section class="section contact">
+                <p class="section-head">
+                    CONTACT
+                </p>
+                <div class="section-container">
+                    <!-- <div class="section-left">
+                        </div>  
+                        <div class="section-right"> -->
                     <div class="contact-container">
                         <p class="contact">이메일:
                             younghwanjoe@gmail.com</p>
@@ -59,337 +58,482 @@
                         <p class="contact">깃헙: <a
                                 href="https://github.com/younghwanjoe">https://github.com/younghwanjoe</a></p>
                         <p class="contact">링크드인: <a
-                                href="https://www.linkedin.com/in/younghwanjoe/">https://www.linkedin.com/in/younghwanjoe</a>
+                                href="https://www.linkedin.com/in/younghwanjoe">https://www.linkedin.com/in/younghwanjoe</a>
                         </p>
                     </div>
-                <!-- </div> -->
-            </div>
-        </section>
-        <section class="section">
-            <p class="section-head">
-                교육
-            </p>
-            <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">연세대학교</span>
-                    <div class="section-info">
-                        <span class="section-position">서울 신촌캠퍼스</span>
-                        <span class="section-term">2012.02 - 2019.02</span>
+                    <!-- </div> -->
+                </div>
+            </section>
+            <section class="section experience">
+                <p class="section-head">
+                    WORK EXPERIENCE
+                </p>
+                <div class="section-container olimplanet">
+                    <div class="section-left">
+                        <span class="section-name">올림플래닛</span>
+                        <div class="section-info">
+                            <span class="section-position">프론트엔드 개발(정규)</span>
+                            <span class="section-term">2021.06 - 현재</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">Elypecs</span>
+                                    <span class="project-term">2021.10 - 현재</span>
+                                    <p class="project-description">
+                                        유저의 3D공간 데이터를 공유할수 있는 메타버스 플랫폼 개발에 참여
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul class="">
+                                    <li class="content-line">Context API를 활용하여 미리보기 Modal 컴포넌트 구현</li>
+                                    <li class="content-line">ReactResponsive와 Tailwind를 사용한 반응형 레이아웃 구현</li>
+                                    <li class="content-line">Redux, Redux-Toolkit을 사용하여 전역상태 관리 코드 작성</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Typescript, React, Redux</p>
+                            </div>
+                        </div>
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">Elypecs Studio</span>
+                                    <span class="project-term">2021.06 - 현재</span>
+                                    <p class="project-description">
+                                        VR 콘텐츠를 웹에서 배포하는 기능과 3D 공간 데이터를 편집할 수 있는 GUI를 제공하는 웹애플리케이션 개발에 참여
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul class="">
+                                    <li class="content-line">JWT와 로컬스토리지를 활용하여 SSO와 이메일 기반의 로그인 및 회원가입 기능과 계정 관리 기능 및
+                                        UI개발</li>
+                                    <!-- <li class="content-line">React.js로 만들어진 배포용 플레이어에서 미디어 콘텐츠를 3D 공간에서 렌더링하도록 구현</li> -->
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Vue.js, Vuex, React, Typescript, Lerna</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
+                <div class="section-container seoulventures">
+                    <div class="section-left">
+                        <span class="section-name">서울벤처스</span>
+                        <div class="section-info">
+                            <span class="section-position">프론트엔드 개발(정규)</span>
+                            <span class="section-term">2018.11 - 2021.02</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">SV Analytics</span>
+                                    <span class="project-term">2020.05 - 2021.02</span>
+                                    <p class="project-description">
+                                        온라인 쇼핑몰의 개별 상품 및 사용자의 구입에 대한 분석 리포트와 자사 솔루션 성과에
+                                        대한 다양한 시각화를 제공하는 SPA 개발
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul class="">
+                                    <li class="content-line">Vue.js와 Vuex를 활용한 데이터 대시보드 및 어드민 개발</li>
+                                    <li class="content-line">Chart.js를 활용하여 다양한 데이터 시각화 구현</li>
+                                    <li class="content-line">Dynamic Import를 사용한 Code Split을 통한 초기 로딩 성능을 개선</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Vue.js, Vuex, Webpack</p>
+                            </div>
+                        </div>
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">Service Checker</span>
+                                    <span class="project-term">2020.11 - 2020.12</span>
+                                    <p class="project-description">
+                                        100여개 이상의 고객사 사이트 내의
+                                        솔루션 서비스 동작을 체킹하는 프로그램 개발. 크로스 브라우저에서의 서비스 체크 결과에 대한 Slack Notification 생성
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul class="">
+                                    <li class="content-line">Python, Selenium을 기반으로 고객사에 삽입된 스크립트 및 서비스 동작 여부 체크 자동화
+                                    </li>
+                                    <li class="content-line">서비스 체커 로직 개발 및 Python 프로그래밍</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Python, Selenium</p>
+                            </div>
+                        </div>
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">AIMD</span>
+                                    <span class="project-term">2019.06 - 2020.04</span>
+                                    <p class="project-description">
+                                        쇼핑몰 내 사용자의 쿠키 정보와 추천 알고리즘을 사용하여 자사 상품을 추천하는 슬라이드를 생성하는 솔루션 및
+                                        솔루션 옵션에 관한 웹 에디트 페이지 개발
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">쿠키와 Swiper.js를 활용한 상품 추천 영역 렌더링하는 웹 모듈 구현 및 Php를 사용한
+                                        Restful API 작성</li>
+                                    <li class="content-line">어드민 내에서 상품 추천 옵션과 알고리즘을 선택하는 에디트 페이지 개발 </li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Typescript, PHP, Webpack</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">Facebook Advertisement Tool</span>
+                                    <span class="project-term">2019.02 - 2019.05</span>
+                                    <p class="project-description">
+                                        Facebook API를 활용하여 페이스북 광고 집행을 자동화하는 웹애플리케이션 프로토타입 개발
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">고객별 페이스북 광고 상황 대시보드 및 컨트롤러 개발과 페이스북 개발자 문서를 기반으로한 API개발.
+                                    </li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Vue.js, Vuex, Veutify, Webpack, PHP, Git</p>
+                            </div>
+                        </div> -->
+
+                        <div class="section-content">
+                            <div class="content-head">
+                                <div class="project-info">
+                                    <span class="project-name">Service Admin</span>
+                                    <span class="project-term">2018.11 - 2019.01</span>
+                                    <p class="project-description">
+                                        솔루션 사용 데이터 시각화와 사용자 기본정보를 관리하는 어드민 개발
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">웹애플리케이션에 데이터 관리 및 시각화</li>
+                                    <li class="content-line">Laravel의 ORM을 활용하여 Mysql, Mongodb data를 사용하는 API 작성</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Vue.js, Laravel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section other-projects">
+                <p class="section-head">
+                    OTHER PROJECTS
+                </p>
+                <!-- <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">주식보드 웹</span>
+                        <div class="section-info">
+                            <span class="section-position">팀 프로젝트</span>
+                            <span class="section-term">2021.03 - 현재</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
+                                    주식 정보를 조건에 따라 검색할 수 있는 SPA개발
+                                </p>
+                                <ul>
+                                    <li class="content-line">3인으로 구성된 팀프로젝트에서 프론트엔드 개발 담당</li>
+                                    <li class="content-line">React를 사용하여 주식관련 대시보드 개발</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: React</p>
+                                <p class="repo-url">URL: <a
+                                        href="http://www.stockboard.net">http://www.stockboard.net</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> -->
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Pathfinding<br />Visualizer</span>
+                        <div class="section-info">
+                            <span class="section-position">개인 프로젝트</span>
+                            <span class="section-term">2021.11 - 2021.03</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
+                                    React와 Redux를 기반으로 다양한 경로찾기 알고리즘을 시각화하는 웹애플리케이션 개발
+                                </p>
+                                <ul>
+                                    <li class="content-line">Daijstra, A* 알고리즘등을 활용하여 경로찾기 시뮬레이터 개발</li>
+                                    <li class="content-line">React 함수형 컴포넌트와 Hooks를 활용하여 조건에 따른 최단 경로 시각화. Redux를 활용한
+                                        데이터 및
+                                        UI상태 관리 구현</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: React, Redux</p>
+                                <p class="repo-url">URL: <a
+                                        href="https://younghwanjoe.github.io/pathfinding-visualizer/">https://younghwanjoe.github.io/pathfinding-visualizer</a>
+                                </p>
+                                <p class="repo-url">Git: <a
+                                        href="https://github.com/younghwanjoe/pathfinding-visualizer">https://github.com/younghwanjoe/pathfinding-visualizer</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Crypto<br>Dashboard</span>
+                        <div class="section-info">
+                            <span class="section-position">아르바이트</span>
+                            <span class="section-term">2018.04 - 2018.05</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
+                                    라인(Line)에서 진행한 가상화폐 실시간 대시보드 개발 프로젝트의 보조로 참여
+                                </p>
+                                <ul>
+                                    <li class="content-line">가상화폐의 실시간 정보를 가져오는 API 유지보수</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: React, NodeJS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Recording<br>Mobile App</span>
+                        <div class="section-info">
+                            <span class="section-position">인턴</span>
+                            <span class="section-term ">2017.12 - 2018.02</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
+                                    연세대학교 전자전기공학 연구소 주관하는 음성 녹음 모바일 애플리케이션 개발에 참여
+                                </p>
+                                <ul>
+                                    <li class="content-line">음성 녹음 및 서버 전송용 IOS 애플리케이션 개발(Swift, Alamofire)</li>
+                                    <li class="content-line">Restful API 사용(Python, Django) </li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Swift, Python</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">NK Model<br>Simulator</span>
+                        <div class="section-info">
+                            <span class="section-position">개인 프로젝트</span>
+                            <span class="section-term ">2017.10 - 2017.12</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
+                                    NK 모델 논문을 토대로 조건에 따라 결과를 그래프로 시각화하는 시뮬레이터 개발
+                                </p>
+                                <ul>
+                                    <li class="content-line">Python과 데이터 처리 라이브러리를 사용해 시뮬레이터 개발</li>
+                                </ul>
+                                <p class="tech-stack">Tech-Stack: Python</p>
+                                <p class="repo-url">Git: <a
+                                        href="https://github.com/younghwanjoe/nk_model_simulator">https://github.com/younghwanjoe/nk_model_simulator</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="section skills">
+                <p class="section-head">
+                    SKILLS
+                </p>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Javascript</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">ES6 이상의 문법을 능숙하게 사용할 수 있습니다.</li>
+                                    <li class="content-line">Typescript를 능숙하게 사용합니다.</li>
+                                    <li class="content-line">함수형 프로그래밍의 기본 Concept를 이해하고 적용할 수 있습니다.</li>
+                                    <li class="content-line">Library 없이 DOM API를 사용하여 UI 구현이 가능합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">HTML / CSS</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">CSS 전처리기 사용에 익숙합니다.</li>
+                                    <li class="content-line">Semantic HTML을 준수합니다.</li>
+                                    <li class="content-line">BEM과 Atomic CSS등의 CSS 방법론을 적용할 수 있습니다.</li>
+                                    <li class="content-line">CSS-in-JS 사용에 능숙합니다(styled-components). </li>
+                                    <li class="content-line">Media Query와 rem, viewport 단위를 사용한 반응형 디자인 구현이 가능합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Web Browser</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">브라우저 Critical Path를 이해하고 있습니다.</li>
+                                    <li class="content-line">Cookie와 Web Storage API 사용에 능숙합니다.</li>
+                                    <li class="content-line">SOP와 CORS 메커니즘을 이해하고 있으며 클라이언트에서 요구되는 설정이 가능합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">React</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">함수형 컴포넌트 작성과 Hooks 사용에 익숙합니다.</li>
+                                    <li class="content-line">React Hooks의 기본원리와 Anti-Pattern을 이해하고 있습니다.</li>
+                                    <li class="content-line">FLUX 패턴을 이해하고 있으며 Redux를 사용한 UI상태 관리에 익숙합니다.</li>
+                                    <li class="content-line">Context API에 익숙하며 UI 특징에 맞게 적절하게 사용할 수 있습니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Vue.js</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">Vue 인스턴스 옵션과 템플릿 문법을 익숙하게 사용합니다.</li>
+                                    <li class="content-line">Vuex를 사용한 전역 상태 관리에 능숙합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Back-End</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">Restful API 설계에 기반한 API 작성이 가능합니다.</li>
+                                    <li class="content-line">AWS EC2, Route53, S3를 사용한 경험이 있습니다.</li>
+                                    <li class="content-line">Mysql을 사용한 경험이 있으며 SQL 작성이 가능합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Tooling</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">Git사용에 익숙합니다.</li>
+                                    <li class="content-line">Jest를 사용한 테스트 환경 세팅이 가능합니다.</li>
+                                    <li class="content-line">Eslint와 Prettier 사용에 익숙합니다.</li>
+                                    <li class="content-line">Webpack, Vite등의 Bundler를 사용하여 프로젝트에 적절한 세팅을 할 수 있습니다.
+                                        <!-- <li class="content-line">Sentry를 사용한 로깅 환경 설정이 가능합니다. -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">Communication</span>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <ul>
+                                    <li class="content-line">겸손한 태도를 유지하되 적극적으로 의견을 피력합니다.</li>
+                                    <li class="content-line">구두적 합의보다 문서화된 합의를 지향합니다.</li>
+                                    <li class="content-line">문서화를 통해 팀내에 지식을 공유하는것을 즐깁니다.</li>
+                                    <li class="content-line">개발자가 아닌 팀원과의 소통도 중요한 스킬로 생각합니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section education">
+                <p class="section-head">
+                    EDUCATION
+                </p>
+                <div class="section-container">
+                    <div class="section-left">
+                        <span class="section-name">연세대학교</span>
+                        <div class="section-info">
+                            <span class="section-position">서울 신촌캠퍼스</span>
+                            <span class="section-term">2012.02 - 2019.02</span>
+                        </div>
+                    </div>
+                    <div class="section-right">
+                        <div class="section-content">
+                            <div class="content-body">
+                                <p class="project-description">
                                     경영학부 졸업
-                            </p>
-                            <p class="project-description">
-                                연세대학교 컴퓨터 학술 동아리(YCC) 세미나 강사 및 임원 활동
-                            </p>
-                            <ul>
-                                <li class="content-line">Python 세미나 강사 활동</li>
-                                <li class="content-line">부회장(1학기) 및 학술 총괄(1학기) 활동</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <p class="section-head">
-                경력
-            </p>
-            <div class="section-container olimplanet">
-                <div class="section-left">
-                    <span class="section-name">올림플래닛</span>
-                    <div class="section-info">
-                        <span class="section-position">프론트엔드 개발(정규)</span>
-                        <span class="section-term">2021.06 - 현재</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">엘리펙스</span>
-                                <span class="project-term">2021.10 - 현재</span>
-                                <p class="project-description">
-                                   사용자의 VR 콘텐츠를 공유 및 확장할 수 있는 웹플랫폼 개발에 참여
                                 </p>
+                                <p class="project-description">
+                                    연세대학교 컴퓨터 학술 동아리(YCC) 세미나 강사 및 임원 활동
+                                </p>
+                                <ul>
+                                    <li class="content-line">Python 세미나 강사 활동</li>
+                                    <li class="content-line">부회장(1학기) 및 학술 총괄(1학기) 활동</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="content-body">
-                            <ul class="">
-                                <li class="content-line">Card와 Carousel를 비롯한 애플리케이션의 핵심적인 공통 UI 컴포넌트 구현</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Typescript, React, Redux</p>
-                        </div>
-                    </div>
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">엘리펙스 스튜디오</span>
-                                <span class="project-term">2021.06 - 현재</span>
-                                <p class="project-description">
-                                    VR 콘텐츠를 웹에서 배포하는 기능과 3D 공간 데이터를 편집할 수 있는 GUI를 제공하는 웹애플리케이션 개발에 참여
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul class="">
-                                <li class="content-line">JWT와 로컬스토리지를 활용하여 SSO와 이메일 기반의 로그인 및 회원가입 기능과 계정 관리 기능 및 UI개발</li>
-                                <!-- <li class="content-line">React.js로 만들어진 배포용 플레이어에서 미디어 콘텐츠를 3D 공간에서 렌더링하도록 구현</li> -->
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Vue.js, Vuex, React, Typescript, Lerna</p>
-                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="section-container seoulventures">
-                <div class="section-left">
-                    <span class="section-name">서울벤처스</span>
-                    <div class="section-info">
-                        <span class="section-position">프론트엔드 개발(정규)</span>
-                        <span class="section-term">2018.11 - 2021.02</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">서울벤처스 애널리틱스</span>
-                                <span class="project-term">2020.05 - 2021.02</span>
-                                <p class="project-description">
-                                    온라인 쇼핑몰의 개별 상품 및 사용자의 구입에 대한 분석 리포트와 자사 솔루션 성과에
-                                    대한 다양한 시각화를 제공하는 SPA 개발
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul class="">
-                                <li class="content-line">Vue.js와 Vuex를 활용한 데이터 대시보드 및 어드민 개발</li>
-                                <li class="content-line">Chart.js를 활용하여 다양한 데이터 시각화 구현</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Vue.js, Vuex, Webpack</p>
-                        </div>
-                    </div>
-                    <!-- <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">셀레니움 서비스 체커</span>
-                                <span class="project-term">2020.11 - 2020.12</span>
-                                <p class="project-description">
-                                    100여개 이상의 고객사 사이트 내의
-                                    솔루션 서비스 동작을 확인하기 위한 서비스 체킹 프로그램 개발. 크로스 브라우저에서의 서비스 동작 체크
-                                    및 결과에 대한 Slack Notification 생성
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul class="">
-                                <li class="content-line">Python, Selenium을 기반으로 고객사에 삽입된 스크립트 및 서비스 동작 여부 체크 자동화</li>
-                                <li class="content-line">서비스 체커 로직 개발 및 Python 프로그래밍</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Python, Selenium</p>
-                        </div>
-                    </div> -->
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">개인화 상품 추천 솔루션(AIMD)</span>
-                                <span class="project-term">2019.06 - 2020.04</span>
-                                <p class="project-description">
-                                    쇼핑몰 내 사용자의 쿠키 정보와 추천 알고리즘을 사용하여 자사 상품을 추천하는 슬라이드를 생성하는 솔루션 및
-                                    솔루션 옵션에 관한 웹 에디트 페이지 개발
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul>
-                                <li class="content-line">쿠키와 Swiper.js를 활용한 상품 추천 영역 렌더링하는 웹 모듈 구현 및 Php를 사용한 Restful API 작성</li>
-                                <li class="content-line">어드민 내에서 상품 추천 옵션과 알고리즘을 선택하는 에디트 페이지 개발 </li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Typescript, PHP, Webpack</p>
-                            <p class="repo-url">URL: <a
-                                    href="https://seoul.ventures/platform/aimd">https://seoul.ventures/platform/aimd</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">페이스북 광고 자동화 툴</span>
-                                <span class="project-term">2019.02 - 2019.05</span>
-                                <p class="project-description">
-                                    Facebook API를 활용하여 페이스북 광고 집행을 자동화하는 웹애플리케이션 프로토타입 개발
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul>
-                                <li class="content-line">고객별 페이스북 광고 상황 대시보드 및 컨트롤러 개발과 페이스북 개발자 문서를 기반으로한 API개발.</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Vue.js, Vuex, Veutify, Webpack, PHP, Git</p>
-                        </div>
-                    </div>
-
-                    <div class="section-content">
-                        <div class="content-head">
-                            <div class="project-info">
-                                <span class="project-name">서비스 어드민</span>
-                                <span class="project-term">2018.11 - 2019.01</span>
-                                <p class="project-description">
-                                    솔루션 사용 데이터 시각화와 사용자 기본정보를 관리하는 어드민 개발
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content-body">
-                            <ul>
-                                <li class="content-line">웹애플리케이션에 데이터 관리 및 시각화</li>
-                                <li class="content-line">Laravel의 ORM을 활용하여 Mysql, Mongodb data를 사용하는 API 작성</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Vue.js, Laravel</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section etc-activity">
-            <p class="section-head">
-                기타 활동
-            </p>
-            <!-- <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">주식보드 웹</span>
-                    <div class="section-info">
-                        <span class="section-position">팀 프로젝트</span>
-                        <span class="section-term">2021.03 - 현재</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
-                                주식 정보를 조건에 따라 검색할 수 있는 SPA개발
-                            </p>
-                            <ul>
-                                <li class="content-line">3인으로 구성된 팀프로젝트에서 프론트엔드 개발 담당</li>
-                                <li class="content-line">React를 사용하여 주식관련 대시보드 개발</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: React</p>
-                            <p class="repo-url">URL: <a
-                                    href="http://www.stockboard.net">http://www.stockboard.net</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
-            <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">패스파인딩<br> 비쥬얼라이저</span>
-                    <div class="section-info">
-                        <span class="section-position">개인 프로젝트</span>
-                        <span class="section-term">2021.11 - 2021.03</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
-                                React와 Redux를 기반으로 다양한 경로찾기 알고리즘을 시각화하는 웹애플리케이션 개발
-                            </p>
-                            <ul>
-                                <li class="content-line">Daijstra, A* 알고리즘등을 활용하여 경로찾기 시뮬레이터 개발</li>
-                                <li class="content-line">React 함수형 컴포넌트와 Hooks를 활용하여 조건에 따른 최단 경로 시각화. Redux를 활용한 데이터 및
-                                    UI상태 관리 구현</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: React, Redux</p>
-                            <p class="repo-url">URL: <a
-                                    href="https://younghwanjoe.github.io/pathfinding-visualizer/">https://younghwanjoe.github.io/pathfinding-visualizer</a>
-                            </p>
-                            <p class="repo-url">Git: <a
-                                    href="https://github.com/younghwanjoe/pathfinding-visualizer">https://github.com/younghwanjoe/pathfinding-visualizer</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">가상화폐<br>대시보드</span>
-                    <div class="section-info">
-                        <span class="section-position">아르바이트</span>
-                        <span class="section-term">2018.04 - 2018.05</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
-                                라인(Line)에서 진행한 가상화폐 실시간 대시보드 개발 프로젝트의 보조로 참여
-                            </p>
-                            <ul>
-                                <li class="content-line">가상화폐의 실시간 정보를 가져오는 API 유지보수</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: React, NodeJS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">음성녹음<br>모바일 앱</span>
-                    <div class="section-info">
-                        <span class="section-position">인턴</span>
-                        <span class="section-term ">2017.12 - 2018.02</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
-                                연세대학교 전자전기공학 연구소 주관하는 음성 녹음 모바일 애플리케이션 개발에 참여
-                            </p>
-                            <ul>
-                                <li class="content-line">음성 녹음 및 서버 전송용 IOS 애플리케이션 개발(Swift, Alamofire)</li>
-                                <li class="content-line">Restful API 사용(Python, Django) </li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Swift, Python</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="section-left">
-                    <span class="section-name">NK 모델<br>시뮬레이터</span>
-                    <div class="section-info">
-                        <span class="section-position">개인 프로젝트</span>
-                        <span class="section-term ">2017.10 - 2017.12</span>
-                    </div>
-                </div>
-                <div class="section-right">
-                    <div class="section-content">
-                        <div class="content-body">
-                            <p class="project-description">
-                                NK 모델 논문을 토대로 조건에 따라 결과를 그래프로 시각화하는 시뮬레이터 개발
-                            </p>
-                            <ul>
-                                <li class="content-line">Python과 데이터 처리 라이브러리를 사용해 시뮬레이터 개발</li>
-                            </ul>
-                            <p class="tech-stack">Tech-Stack: Python</p>
-                            <p class="repo-url">Git: <a
-                                    href="https://github.com/younghwanjoe/nk_model_simulator">https://github.com/younghwanjoe/nk_model_simulator</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
     </div>
 </body>
 
