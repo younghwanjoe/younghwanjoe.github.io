@@ -22,6 +22,12 @@ ul {
     font-size: 1.1rem;
 }
 
+ul>li:before {
+    left: 4px !important;
+    content: "•";
+    color: #0687f0 !important;
+}
+
 a:visited {
     text-decoration: none;
     color: #000000;
@@ -43,6 +49,11 @@ a:active {
     letter-spacing: -.3px;
 }
 
+.my-name {
+    color: #0687f0;
+    display: inline-block;
+}
+
 .resume-title {
     font-weight: bold;
     margin: .5em 0;
@@ -62,11 +73,6 @@ a:active {
 .contact-container {
     display: block;
     margin: 0 0 1rem 0;
-}
-
-.my-name {
-    text-align: center;
-    font-size: 50px;
 }
 
 .info {
