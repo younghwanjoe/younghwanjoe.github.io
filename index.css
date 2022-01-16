@@ -1,6 +1,15 @@
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    background-color: #fff;
+}
+
+a {
+    color: black;
+}
+
 #resume {
-    max-width: 1100px;
-    width: 1100px;
+    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -27,9 +36,8 @@ a:active {
 
 .container {
     width: 100%;
-    max-width: 50rem;
+    max-width: 750px;
     margin: 2rem auto 6rem;
-    font-family: 'Open Sans', sans-serif;
     /* font-family: 'Nanum Gothic', sans-serif; */
     /* font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';  */
     font-weight: 400;
@@ -54,7 +62,7 @@ a:active {
 }
 .contact-container {
     display: block;
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 1rem 0;
 }
 
 .my-name {
@@ -130,14 +138,15 @@ section.section.etc-activity> div:not(:last-child) > div.section-right {
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #acacac;
+    color: #0687f0;
 }
 
 .section-left {
     display: flex;
     flex-direction: column;
     vertical-align: top;
-    margin: 1rem 0 0 1rem;
-    flex-basis: 40%;
+    margin: 1rem 0 0 0;
+    flex-basis: 30%;
 }
 
 .section-right {
